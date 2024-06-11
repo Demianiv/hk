@@ -1,0 +1,10 @@
+.musictext{ display:flex;
+    padding-top:0%;
+    margin-left: 21px ; 
+    padding-left: 10%;
+    color: rgb(0, 0, 0);
+    
+    
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium'  ;
+}

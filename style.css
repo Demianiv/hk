@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(255, 255, 255);  
+    
+}
+.sub_block.new_dex {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url("hello-kitty-3840x2160-9983.jpg");
+    background-size:cover;
+    height: 950px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    ;
+    align-items: center;
+   }
+   .sub_block.new_dex .form_sub {
+    background-color: rgba(255, 255, 255, 0.836);
+    width: 670px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-decoration-color: rgb(255, 255, 255);
+   }
+   .sub_block.new_dex .form_sub .title {
+    text-align: center;
+    font-size: 25px;
+    color: #ff4492;
+     
+    line-height: 1.875;
+   }
+   .sub_block.new_dex .form_sub .inputs {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+   }
+   .sub_block.new_dex .form_sub .inputs input {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ff4492;
+    border-radius: 22px;
+    background-color: #ff4492;
+    left: 454px;
+    top: 4158px;
+    width: 251px;
+    height: 30px;
+    outline: none;
+    color: #fff;
+    padding: 10px;
+   }
+   .sub_block.new_dex .form_sub button {
+    border-radius: 22px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 6px 40px 0px rgba(0, 0, 0, 0.54);
+    margin-top: 20px;
+    width: 232px;
+    height: 44px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+   }
+   

@@ -1,0 +1,703 @@
+body {
+    margin: 0;
+    width: auto;
+    height: 3500;
+    margin-top: 26px;
+    background-image: url("1.png");
+    background: flex;
+    background-repeat: no-repeat;
+}
+.model{
+    display:flex;
+    margin-top: 15%;
+    color: white;
+    padding-left: 37%;
+    padding-top: 20%;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.model1{
+    display:flex;
+    margin-top: 3%;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    padding-top: 2%;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium'  ;
+}
+ 
+
+.model-discription{
+    display:flex; 
+    color: white;
+    padding-left: 25%;
+    padding-right: 20%;
+    padding-bottom: 25px;
+    font-size: 20px;
+    text-shadow: rgb(43, 42, 42);
+    
+}
+ 
+.but{
+    display:flex;
+    color: white;
+    padding: 20px;
+    margin-left:42.2%;
+    margin-right:42.4%;
+    border:1px solid white;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.but:hover{
+
+    background-color: white;
+    color:black
+}
+.header-block {
+    border-color: rgb(235, 235, 235);
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 74px;
+    margin:0;
+    align-items: center;
+}
+
+.container {
+    width: 1100px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+
+    
+}
+.container2 {
+    width: auto;
+    height: 3.4%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between; 
+}
+    .nav{
+    display: flex;
+    justify-content: start;
+    height: 100%;
+    align-items: center;
+}
+
+.nav-link {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 28px 20px;
+    float: left;
+    text-decoration: none;
+    border-right: 1px solid rgb(241, 241, 241);
+    position: relative;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.open-popup {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 28px 20px;
+    float: left;
+    text-decoration: none;
+    margin-left: 78%;
+    position: relative;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ 
+.nav-link:hover {
+    background-color: rgb(241, 241, 241);
+}
+mark { margin-left: 1%;
+    margin-right: 1%;
+    background-color: #ff4492;
+    color: rgb(255, 255, 255);
+  }
+   
+.nav-link:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.5s;
+}
+.nav-link:hover:after {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+}
+
+
+.nav-logo {
+    height: 70px;
+    width: 70px;   
+    padding-top: 0px;
+}
+ 
+ 
+     
+
+.nav-right {
+    height: auto;
+    margin-left: auto; 
+    padding-bottom: 1%;
+}
+.promo-box{
+   
+    width: 500px;
+    height: 300px;
+    background-color: #ff6600;
+}
+.promo-box1{
+    
+    width: 300px;
+    height: 300px;
+    background-color: #555;
+}
+.content{
+    display: inline-block;
+}
+.Shape_1 {
+    height: 70px;
+    background-color: #ff4492;
+    position:absolute;
+    
+    top: -39px;
+    width: 100%;
+    z-index: 143;
+  }
+ 
+  .container3 {
+    height: 5%;
+    /*margin-bottom: 20% ;*/
+   margin-left: 9% ;
+   margin-top: 2%;
+   margin-right: 9% ;
+   margin-bottom: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .paneltop{
+    display:flex;
+    color: rgb(255, 255, 255);
+   background: rgb(0, 0, 0);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    height: 60px;
+    width: 280px;
+    justify-content: center;
+    border:1px solid rgb(0, 0, 0);
+    font-size: 22px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 5px #555;
+    transition: 1s;}
+ 
+.paneltop:hover{ transform:scale(1.1);
+}
+
+.paneltop1{
+    display:flex;
+    color: rgb(255, 255, 255);
+   background: #ff4492;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    height: 60px;
+    width: 280px;
+    justify-content: center;
+    border:1px solid #ff4492;
+    font-size: 22px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.8s;}
+ 
+ 
+.paneltop1:hover{ transform:scale(1.1);
+}
+
+.musictext{ display:flex;
+    padding-top:0%;
+    margin-left: 21px ; 
+    padding-left: 10%;
+    color: rgb(0, 0, 0);
+    
+    
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium'  ;
+}
+.containerCD{ 
+    display:flex;
+    
+    height: 380px;
+    width: auto;
+    padding-left: 11%;
+    padding-top: 2%;
+    padding-right: 10%;
+    justify-content:   space-between; 
+}
+.knopkatext{ display:flex;
+    color: rgb(0, 0, 0);
+   background: rgba(255, 255, 255, 0);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 3%;
+    height: 26px;
+    width: auto;
+    justify-content: left;
+     
+    font-size: 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.knopkatextbotom{ display:flex;
+    color: rgb(0, 0, 0);
+   background: rgba(255, 255, 255, 0);
+    padding-left: 3%;
+    padding-right: 3%;
+     
+    height: 26px;
+    width: 280px;
+    justify-content: left;
+     
+    font-size: 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.but1{
+    display:flex;
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    margin-left:65%;
+    justify-content: center;
+    margin-top:4%;
+    width: auto;
+    margin-right:8%;
+    border:1px solid rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.but1:hover{
+
+    background-color: rgb(201, 1, 1);
+    color:rgb(255, 255, 255)
+}
+.containerCD{
+    background-image: url("back.png");
+    border-top:5px solid rgb(0, 0, 0);
+    border-bottom:5px solid rgb(0, 0, 0);
+     
+    
+}
+
+.guitarp {
+    display:flex; 
+    position:absolute;
+    min-width: 44.5%;
+    width: 44.5%;
+     
+     
+     
+}   
+.guitarpanel {
+    display:flex; 
+     
+    width: auto;
+    height: auto; 
+     
+     
+}   
+ 
+ 
+ 
+.model2{
+    display:flex;
+    margin-top: 2%;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+     
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium'  ;
+}
+ 
+.model3{
+    display:flex;
+    padding-top:0%;
+    margin-left: 0% ; 
+    padding-left: 10.5%;
+    padding-bottom: 0.07%;
+    color: rgb(0, 0, 0);
+    border-bottom:5px solid rgb(0, 0, 0);
+    
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium'  ;
+}
+#myVideo {
+    position: none;
+    margin-top: 2%;
+    right: 0;
+   top: 0%;
+     min-width: 100%;
+     min-height: 100%;
+     width: auto;
+     height: auto; 
+     z-index: 0; 
+      
+      
+      
+      
+    }
+
+.textBig{
+    display:flex;
+    position:  absolute;
+    color: rgb(255, 255, 255);
+    padding-top:  10%; 
+    margin-left:  50%; 
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium'  ;
+    text-shadow: -8px 2px 6px #000000;
+}
+.textBig2{
+    display:flex;
+    position:  absolute;
+    color: rgb(255, 255, 255);
+    padding-top:  14%; 
+    margin-left:  50%; 
+    font-size: 30px;
+    width: 40%;
+     height: 100%;
+    font-family: 'Franklin Gothic Medium'  ;
+    text-shadow: -8px 2px 6px #000000;    
+}
+
+.order{
+    display:flex;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    position:  absolute;
+    padding: 1%; 
+    margin-left:  78%; 
+    margin-top:  30%;  
+    border:1px solid white;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: -8px 2px 6px #000000;  
+}
+
+.musictext2{ display:flex;
+    padding-top:4.7%;
+    margin-left: 21px ; 
+    padding-left: 10%;
+    color: rgb(0, 0, 0);
+    
+    
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium'  ;
+}
+.containerbands{ 
+    display:flex;
+    
+    height: 200px;
+    width: auto;
+    padding-left: 11%;
+    padding-top: 2%;
+    padding-right: 11%;
+    justify-content:   space-between; 
+}
+
+.bandpanel{-webkit-box-shadow: -8px 13px 19px -2px rgba(236, 147, 202, 0.73); 
+    box-shadow: -8px 13px 19px -2px rgba(236, 147, 202, 0.73);
+    height: 120px;  
+    transition: 0.8s;}
+    .bandpanel:hover{
+        transform: scale(1.2);
+    }
+        
+    .tdimension {
+        width: 500px;
+        height: 500px;
+        margin: -2.5% 0% 40px 10%;
+        perspective: 1000px;
+    }
+    .tdimension a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: url("met1.jpeg.png");
+        background-size: cover;
+        transform-style: preserve-3d;
+        transform: rotateX(70deg);
+        transition: all 0.8s;	
+    }
+    .tdimension:hover a {
+        transform: rotateX(20deg); 	
+    }	
+    .tdimension a:after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        /*background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)); */   
+           transform: rotateX(90deg);
+        transform-origin: bottom;
+    }
+    .a666{
+        display: flex; 
+        background: url("back.png");
+        justify-content: center;
+        height: 13%;
+        
+    }
+    .bandpic1{
+        margin-top: 2%;
+    }
+    
+    
+    .container5{
+        display: flex;
+        justify-content: center;
+        color:#ffffff;
+        background-color: #ff4492;
+        
+        
+    }
+    .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  color: rgb(255, 255, 255);
+} 
+
+
+.social-icons
+{ 
+  padding-left: 0px;
+}
+.social-icons li
+{
+  display:inline-block;
+}
+
+.social-icons a{
+  display:inline-block;
+}
+
+.footer_info{
+    padding: 0;
+    padding-right: 200px;
+}
+.iconendpic{
+    font-display: flex;
+    width: 20px; 
+    height: 20px; 
+    justify-content: center;
+}
+
+ 
+ 
+.row{
+    padding: 0;
+    display:flex;
+    width: 1100px;
+    justify-content: space-around;
+}
+.textfoot{
+    margin-top:1.1% ;
+    display:flex;
+    padding: 2%;
+    width:50%;
+    justify-content: center;
+    font-size: 150%;
+    padding-left: 10%;
+}
+.bandpic2{
+    display: flex;
+    justify-content: center;
+    margin-left: 0%;
+    padding-left: 4%;
+}
+/*popup*/
+.popup__bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;  
+    pointer-events: none;  
+    transition: 0.5s all;
+}
+
+.popup__bg.active {  
+    opacity: 1;  
+    pointer-events: all;  
+    transition: 0.5s all;
+}
+
+.popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);  
+    background: #fff;
+    width: 400px;
+    padding: 25px;
+    transition: 0.5s all;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.popup.active {  
+    transform: translate(-50%, -50%) scale(1);  
+    transition: 0.5s all;
+}
+ 
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.popup label {
+    width: 100%;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.popup .label__text {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #626366;
+    margin-bottom: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.popup input {
+    height: 45px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #626366;
+}
+
+.popup input:focus {
+    border-bottom: 1px solid #000000;
+}
+
+.popup input:focus + .label__text {
+    color: #000000;
+}
+
+.popup textarea {
+    resize: none;
+    width: 100%;
+    height: 150px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #626366;
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.popup textarea:focus {
+    border-bottom: 1px solid #000000;
+}
+
+.popup textarea:focus + .label__text {
+    color: #000000;
+}
+
+.popup button {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    border: 2px solid #000000;
+    background: #000000;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s all;
+}
+
+.popup button:hover {
+    background: rgb(255, 255, 255);
+    color:#000000;
+    transition: 0.5s all;
+}
+.submit{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*popup*/
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ff4492;
+    min-width: 170px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 2px 2px;
+    text-decoration: none;
+    display: flex;
+    justify-content:center;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
